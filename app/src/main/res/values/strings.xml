@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">LoginLogicText_20201025</string>
+    <string name="app_name">로그인연습</string>
+    <string name="email">이메일</string>
 </resources>
