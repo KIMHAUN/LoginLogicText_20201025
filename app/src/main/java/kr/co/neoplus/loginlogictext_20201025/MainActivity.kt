@@ -12,17 +12,13 @@ class MainActivity : AppCompatActivity() {
 
         loginBtn.setOnClickListener {
 
-            val email = inputEmail.text.toString()
+            val email = inputEmail.text.toString() //왠만하면 toString으로 가져오기.
             val pwd = inputPwd.text.toString()
-            if(email=="admin@test.com" && pwd=="qwer"){
+            if(email == "admin@test.com" && pwd == "qwer"){
                 Toast.makeText(this, "관리자가 로그인했습니다.", Toast.LENGTH_SHORT).show()
-
             }else{
                 Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
             }
-
         }
     }
-
-
 }
